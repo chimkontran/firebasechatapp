@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <EditText
+        android:id="@+id/messageArea"
+        android:maxHeight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#CFD8DC"
+        android:textColor="#CFD8DC"
+        android:layout_weight="1"
+        android:hint="Write message here"
+        />
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="3"-->
+        <!--android:text="CAM"-->
+        <!--android:id="@+id/btnUpload"-->
+        <!--android:padding="4dp"-->
+        <!--/>-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSend"
+        android:layout_weight="7"
+        android:src="@android:drawable/ic_menu_send"
+        android:padding="4dp"
+        />
+
+</LinearLayout>
